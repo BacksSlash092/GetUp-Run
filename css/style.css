@@ -1,0 +1,88 @@
+body{
+   
+        font-family: 'Lato', sans-serif;
+    background: url("../img/runners-635906_1920.jpg")
+
+}
+header{
+      
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+img{
+    height:150px;
+   
+}
+#container{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 30px;
+    background: #dedede;
+    padding: 30px;
+    text-align: center;
+    border-radius: 25px;
+    border: 5px solid #ccc;
+    height: 550px;
+     
+  
+    
+}
+
+
+#startingPo{
+    padding: 15px;
+    
+}
+
+
+.menuStyle{
+    
+    
+    
+    
+}
+
+#startLat{
+    background: lightgray;
+    padding: 15px;
+
+}
+
+#startLon{
+  
+}
+
+
+
+#rigth-side{
+    width: 90%;
+    float: right;
+      background-color: lightgray;
+    padding: 20px;
+}
+
+
+.hidden{
+    display: none;
+}
+
+button{
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 105px;
+    margin-top: 25px;
+    width: 80%;
+}
+
+
+.active-cords{
+    
+  color: #00688B;
+    font-weight: bold;
+    
+};
+
+

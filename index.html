@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    
+        <title>Mile Tracker</title>
+        
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet"> 
+        
+        
+        <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                
+        <!-- JQUERY MOBILE -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+        <!-- JQUERY UI-->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    
+    </head>
+    
+    
+    <body>
+        <div id="container">
+                       
+            <header>
+               
+                <h1 id="main-header">Mile Tracker</h1>
+            
+            </header>
+
+            
+            <div id="rigth-side">
+                <div id="startingPosition">
+                
+                    <header>
+                         <p><strong><span id="startingPo">Starting Position</span></strong>
+                    </header>
+                    <p> <span id="startLat">Acquiring Latitude...</span></p>
+                    <p><span id="startLon">Acquiring Longitute...</span></p>
+              
+                            
+                            
+            </div>                
+            
+            <div id="CurrentPosition">
+                <header><p> <strong>Current Position</strong></p></header>
+                <p><span id="currentLat">Acquiring Latitude...</span></p>
+                <p> <span id="currentLon">Acquiring Longitute...</span></p>
+            </div> 
+                            
+            
+              <p>
+            
+                <strong>Distance Ran</strong><br>
+                <span id="distance">0</span> Miles
+              
+                
+            
+            </p>
+            
+            
+            </div>
+                            
+                       
+            <button id="startBtn" onclick="startTracking()">Start Tracking</button>
+            <button id="stopBtn" class="hidden" onclick="stopTracking()">Stop Tracking</button>        
+                            
+            
+            
+            
+        </div>
+    
+      
+
+    </body>
+    
+    
+        <script src="js/script.js"></script>
+
+
+
+
+
+</html>
